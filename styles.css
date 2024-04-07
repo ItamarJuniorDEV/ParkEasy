@@ -1,0 +1,66 @@
+header {
+    background-color: rgb(22, 16, 16);
+    padding: 10px;
+    margin-bottom: 0;
+    font-style: normal;    
+    display: flex; 
+    
+}
+
+body {
+    background-color: #000000; /* Preto */
+    color: #ffffff; /* Branco */
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#titulo { 
+    color:rgb(255, 255, 255);
+    text-align: center;
+    margin: 0; 
+}
+
+#menu {
+    display:flex;
+    list-style-type: none;  
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#menu li {
+    font-weight: bold;
+    margin: 0 10px;
+}
+#menu li:hover{
+    cursor: pointer;
+}
+
+main {
+    text-align: center;
+    margin-top: 0px ;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+footer {
+    border-top: 1px solid rgb(0, 0, 0);
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+#logo {
+    width: 100px;
+    height: auto;
+    text-align: left ;
+}
+#menu-conteiner {
+
+    margin-left: 35%;
+}
