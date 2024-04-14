@@ -5,7 +5,7 @@ function login(){
     var login = document.getElementById("usuario").value
     var senha = document.getElementById("senha").value
     if(login == usuario && senha == password) {
-        window.location.href="/index.html"
+        window.location.href="/home/index.html"
         window.alert("Login realizado com sucesso")
 
     }
