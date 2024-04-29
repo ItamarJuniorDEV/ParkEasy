@@ -1,0 +1,19 @@
+#tabela-funcionario {
+    border:2px solid white ;
+    padding: 20px;
+    width: 80%;
+    justify-content: center;
+
+
+}
+main{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+tr, tr {
+    border: 2px solid white;
+    background-color:red
+}
+

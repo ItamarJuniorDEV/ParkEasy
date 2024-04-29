@@ -10,6 +10,10 @@ function cadastrar(){
     const funcionario = JSON.stringify({login,senha,nome,idade})
     dados.push(funcionario)
     localStorage.setItem("dados",JSON.stringify(dados))
+    
+    window.location.href="/index.html"
+    window.alert(`funcionário de nome ${nome} foi registrado com sucesso!`)
+    
 }
 
 
