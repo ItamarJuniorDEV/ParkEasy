@@ -2,18 +2,29 @@
     border:2px solid white ;
     padding: 20px;
     width: 80%;
-    justify-content: center;
-
-
+    padding: 50px;
 }
+
 main{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+    padding: 50px;
 }
 
 tr, tr {
     border: 2px solid white;
-    background-color:red
+    background-color:rgb(77, 70, 70);
 }
 
+#botao-adicionar {
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-right: 70%;
+    margin-bottom: 10px;
+}
+
+#tabela-conteiner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

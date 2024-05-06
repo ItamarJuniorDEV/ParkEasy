@@ -11,10 +11,10 @@ function cadastrar(){
     dados.push(funcionario)
     localStorage.setItem("dados",JSON.stringify(dados))
     
-    window.location.href="/index.html"
+    window.location.href="/paginas/cadastros/funcionario/main/index.html"
     window.alert(`funcionário de nome ${nome} foi registrado com sucesso!`)
-    
 }
+
 
 
 

@@ -38,19 +38,19 @@
     </header>
     <main>
         <h2> Lista de funcionários </h2>
-        <table id="tabela-funcionario"> 
-            <thead> 
-                <tr> 
-                    <th> Nome</th>
-                    <th> Idade</th>
-                </tr>
-            </thead>
-
-            <tbody id="corpo-tabela"> 
-
-
-            </tbody>
-        </table>
+        <div id="tabela-conteiner">
+            <button id="botao-adicionar" onclick="cadastrar()"> Adicionar </button>
+            <table id="tabela-funcionario"> 
+                <thead> 
+                    <tr> 
+                        <th> Nome</th>
+                        <th> Idade</th>
+                    </tr>
+                </thead>
+                <tbody id="corpo-tabela"> 
+                </tbody>
+            </table>
+        </div>
     </main>
     <script src="tabela.js"></script>
 </body>
